@@ -3,13 +3,13 @@
     {
       "name": "Raji",
       "age": 25,
-	  "designation":"SE"
+	  "designation":"SE",
 	  "gender":"female"
     },
 	 {
       "name": "Anbu",
       "age": 28,
-	  "designation":"SE"
+	  "designation":"SE",
 	  "gender":"male"
     }
   ],

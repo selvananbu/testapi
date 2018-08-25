@@ -1,18 +1,9 @@
 {
-  "posts": [
+  "posts": 
     {
-      "name": "Raji",
-      "age": 25,
-	  "designation":"SE",
-	  "gender":"female"
-    },
-	 {
-      "name": "Anbu",
-      "age": 28,
-	  "designation":"SE",
-	  "gender":"male"
-    }
-  ],
+      "message": "Hi Raji",
+	 }
+  ,
   "profile": {
     "name": "typicode"
   }

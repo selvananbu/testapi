@@ -1,9 +1,7 @@
 {
-  "posts": 
-    {
-      "message": "Hi Raji",
-	 }
-  ,
+  "posts": {
+    "message": "Hi Raji"
+  },
   "profile": {
     "name": "typicode"
   }

@@ -1,19 +1,532 @@
 {
-  "posts": [
-    {
-      "name": "Raji",
-      "age": 25,
-	  "designation":"SE",
-	  "gender":"female"
+    "interfaceInfo": {
+        "type": "MT_LV3_DATA_INTERFACE",
+        "version": 1
     },
-	 {
-      "name": "Anbu",
-      "age": 28,
-	  "designation":"SE",
-	  "gender":"male"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "choice": [
+        {
+            "choiceID": "MACH_DATA_100_1",
+            "name": "ESL",
+            "machineNo": 100,
+            "partNo": 1,
+            "machSender": [
+                {
+                    "machineId": "PARSIDENT_100",
+                    "partType": 0,
+                    "bcdType": 0
+                },
+                {
+                    "machineId": "ESL_SNR031079066",
+                    "partType": 1,
+                    "bcdType": 0
+                },
+                {
+                    "machineId": "QuVis_Break_Xy_SNR060079069",
+                    "partType": 0,
+                    "bcdType": 0
+                },
+                {
+                    "machineId": "QUVIS_CUT_SNR031079066",
+                    "partType": 0,
+                    "bcdType": 0
+                }
+            ],
+            "sampleData": {
+                "interfaceInfo": {
+                    "type": "MT_LV3_MACHINE_DATA",
+                    "version": 1
+                },
+                "machineNo": 100,
+                "partNo": 1,
+                "gauge": [
+                    {
+                        "variable": "STPL_W",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "CHARGE_DATA_BCD",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "CYCLE_TIME",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_OVERRIDE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYCUTFLOAT_CUTWHEELLENGTH",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYTRANSPORTIN_X",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PROCESS_TIME_DAY",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYTRANSPORTIN_Y",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYTRANSPORTIN_Z",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "XPOS",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYCUTFLOAT_CUTPRESSUREVARIABEL",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "DELAY_INFEED",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PRDCT_ORDER",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PROCESS_TIME",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "RDYDECOAT_DECOATSTPLLENGTH",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PRDCT_CHARGE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "DELAY_INFEED_DAY",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYTRANSPORTIN_OGR",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PANE_WIDTH",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "DELAY_OUTFEED",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_X",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_Y",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_Z",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_GRINDWHEELDIAMETER",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "GL_DESC",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "DAY_COUNT_CALC",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "SENT_TOT",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "OPERATING_HOURS",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYCUTFLOAT_CUTSPEED",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYCUTFLOAT_CUTPRESSURE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "DAY_COUNT",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "RDYDECOAT_PROGNR",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_OGR",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_GRINDWHEELREVOLUTIONS_TMP",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYCUTFLOAT_CUTSTPLTIME",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_STPLNR",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_GRINDWHEELREVOLUTIONS",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "SENT_MID",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "CHARGE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "TOT_COUNT",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYTRANSPORTIN_BLOWERLEVEL",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "YPOS",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYCUTFLOAT_OVERRIDE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PRDCT_HEIGHT",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PANE_COUNT",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "SUBSTATE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PRDCT_STPL",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_DECOATSTPLTIME",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PRDCT_GLASSID",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYTRANSPORTIN_BATCH",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "EXIT_STATUS",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYCUTFLOAT_OILQUANTITY",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "OVERRIDE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYCUTFLOAT_CUTWHEELANGLE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "AREA_NOS1_DAY",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "SENT_DAY",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "DELAY_OUTFEED_DAY",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PANE_SHAPE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_BATCH",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYCUTFLOAT_CUTSTPLLENGTH",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "STATE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYDECOAT_DECOATSPEED",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYTRANSPORTIN_PROGNR",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PRDCT_BATCH",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PANE_HEIGHT",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "STPL_H",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "RDYTRANSPORTIN_STPLNR",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PRDCT_LENGTH",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PRDCT_OGR",
+                        "keepsHistory": false
+                    }
+                ],
+                "currentAlarm": {
+                    "classNo": 2,
+                    "argNo": "A 5399:",
+                    "whoText": "Transport field A0",
+                    "whoTextNo": 4000392,
+                    "msgText": "CONFIRM: Align sheet",
+                    "msgTextNo": 8005399
+                },
+                "mainStatus": 4,
+                "subStatus": 3,
+                "partName": "ESL"
+            }
+        },
+        {
+            "choiceID": "MACH_DATA_405_3",
+            "name": "TPA L3",
+            "machineNo": 405,
+            "partNo": 3,
+            "machSender": [
+                {
+                    "machineId": "TPA_SNR801078214",
+                    "partType": 0,
+                    "bcdType": 0
+                },
+                {
+                    "machineId": "TPA_SNR000004711",
+                    "partType": 0,
+                    "bcdType": 0
+                }
+            ],
+            "sampleData": {
+                "interfaceInfo": {
+                    "type": "MT_LV3_MACHINE_DATA",
+                    "version": 1
+                },
+                "machineNo": 405,
+                "partNo": 3,
+                "gauge": [
+                    {
+                        "variable": "DAY_COUNT_CALC",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "SET_MATERIAL_QUANTITY",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "DELAY_OUTFEED_DAY",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "ENERGY_CONSUMPTION_ACTUAL",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "MATERIALTEMPERATUR",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "MATERIAL_CONTAINER1_LEVEL",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PROCESS_TIME",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "MATERIAL_DRUM_PUMP_LEVEL",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "MAT_TYPE1",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "DELAY_INFEED_DAY",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "AREA_NOS4_DAY",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "ENERGY_DAY_SHEET",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PANE_SHAPE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PREHEATED_BEFORE_CLOSING",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "MATERIAL_CONSUMPTION",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "AREA_NOS3_DAY",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "DELAY_INFEED",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "OPERATING_HOURS",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PANE_WIDTH",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "OVERRIDE",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "AREA_NOS2_DAY",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "EXIT_STATUS",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "MATERIAL_CONSUMPTION_ACTUAL",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "DAY_COUNT",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "PROCESS_TIME_DAY",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PANE_HEIGHT",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "ENERGY_COUNT",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PANE_COUNT",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "STATE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "PRDCT_CHARGE1",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "TOT_COUNT",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "MATERIAL_CONTAINER2_LEVEL",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "WEEK_COUNT",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "DELAY_OUTFEED",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "MATERIAL_DAY_COUNT",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "CYCLE_TIME",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "ENERGY_DAY_COUNT",
+                        "keepsHistory": true
+                    },
+                    {
+                        "variable": "SUBSTATE",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "CHARGE_DATA_BCD",
+                        "keepsHistory": false
+                    },
+                    {
+                        "variable": "SENT_MID",
+                        "keepsHistory": false
+                    }
+                ],
+                "currentAlarm": {
+                    "classNo": 2,
+                    "argNo": "A 566:",
+                    "whoText": "06006576",
+                    "whoTextNo": 6006576,
+                    "msgText": "Measured value is out of tolerance",
+                    "msgTextNo": 8000566
+                },
+                "mainStatus": 4,
+                "subStatus": 3,
+                "partName": "TPA L3"
+            }
+        }
+    ]
 }
